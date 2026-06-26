@@ -16,7 +16,7 @@ export function Footer() {
           </Link>
 
           <p className="text-sm text-gray-500 dark:text-gray-500">
-            &copy; {new Date().getFullYear()} Glenn. Built with Next.js &amp; MongoDB.
+            &copy; {new Date().getFullYear()} Glne. Built with Next.js &amp; MongoDB.
           </p>
 
           <div className="flex items-center gap-3">
