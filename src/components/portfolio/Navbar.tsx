@@ -42,7 +42,7 @@ export function Navbar() {
           <div className="w-8 h-8 rounded-lg bg-violet-600 flex items-center justify-center">
             <Code2 size={16} className="text-white" />
           </div>
-          <span className="text-sm font-mono">alex.dev</span>
+          <span className="text-sm font-mono">glenn.dev</span>
         </Link>
 
         {/* Desktop links */}
