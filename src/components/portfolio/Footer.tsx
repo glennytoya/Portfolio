@@ -1,4 +1,3 @@
-// src/components/portfolio/Footer.tsx
 import Link from 'next/link'
 import { Github, Linkedin, Twitter, Code2 } from 'lucide-react'
 
@@ -11,18 +10,34 @@ export function Footer() {
             <div className="w-7 h-7 rounded-lg bg-violet-600 flex items-center justify-center">
               <Code2 size={14} className="text-white" />
             </div>
-            <span className="text-sm font-mono font-semibold text-gray-700 dark:text-gray-300">glenn.dev</span>
+            <span className="text-sm font-mono font-semibold text-gray-700 dark:text-gray-300">
+              glenn.dev
+            </span>
           </Link>
+
           <p className="text-sm text-gray-500 dark:text-gray-500">
-            &copy; {new Date().getFullYear()} Glne. Built with Next.js &amp; MongoDB.
+            &copy; {new Date().getFullYear()} Glenn. Built with Next.js &amp; MongoDB.
           </p>
+
           <div className="flex items-center gap-3">
             {[
-              { Icon: Github,   href: 'https://github.com/glennytoya',      label: 'GitHub' },
-              { Icon: Linkedin, href: 'https://linkedin.com/in/glennytoya', label: 'LinkedIn' },
-              { Icon: Twitter,  href: 'https://twitter.com/glennytoya',     label: 'Twitter' },
+              {
+                Icon: Github,
+                href: 'https://github.com/glennytoya',
+                label: 'GitHub',
+              },
+              {
+                Icon: Linkedin,
+                href: 'https://linkedin.com/in/glenny',
+                label: 'LinkedIn',
+              },
+              {
+                Icon: Twitter,
+                href: 'https://twitter.com/mg1ne',
+                label: 'Twitter',
+              },
             ].map(({ Icon, href, label }) => (
-              
+              <a
                 key={label}
                 href={href}
                 target="_blank"
