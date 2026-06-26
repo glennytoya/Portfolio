@@ -1,6 +1,7 @@
 // src/middleware.ts
 import { NextRequest, NextResponse } from 'next/server'
 import { getTokenFromRequest } from '@/lib/auth'
+export const runtime = 'nodejs' 
 
 const PROTECTED_PATHS = ['/admin/dashboard', '/admin/projects', '/admin/skills', '/admin/experience', '/admin/messages']
 
