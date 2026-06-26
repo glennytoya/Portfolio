@@ -34,7 +34,6 @@ const ProjectSchema = new Schema<IProjectDoc>(
   { timestamps: true }
 )
 
-ProjectSchema.index({ slug: 1 })
 ProjectSchema.index({ status: 1, order: 1 })
 ProjectSchema.index({ featured: 1 })
 
