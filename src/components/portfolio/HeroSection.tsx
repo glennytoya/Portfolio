@@ -23,7 +23,7 @@ export function HeroSection() {
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-gray-900 dark:text-white mb-6 animate-fade-up">
             Hi, I&apos;m{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-purple-600">
-              Alex Mercer
+              Glenn
             </span>
           </h1>
 
@@ -60,8 +60,8 @@ export function HeroSection() {
           <div className="flex items-center gap-4 mt-10 animate-fade-up animate-delay-400">
             <span className="text-xs text-gray-400 font-mono">Find me on</span>
             {[
-              { Icon: Github,   href: 'https://github.com/alexmercer',      label: 'GitHub' },
-              { Icon: Linkedin, href: 'https://linkedin.com/in/alexmercer', label: 'LinkedIn' },
+              { Icon: Github,   href: 'https://github.com/glennytoya',      label: 'GitHub' },
+              { Icon: Linkedin, href: 'https://linkedin.com/in/glennytoya', label: 'LinkedIn' },
             ].map(({ Icon, href, label }) => (
               <a
                 key={label}
