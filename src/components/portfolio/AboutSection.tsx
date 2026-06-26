@@ -1,4 +1,3 @@
-// src/components/portfolio/AboutSection.tsx
 import { Code2, Cpu, Globe, Coffee } from 'lucide-react'
 
 const VALUES = [
@@ -22,28 +21,19 @@ export function AboutSection() {
           </h1>
           <div className="prose prose-gray dark:prose-invert max-w-none space-y-5 text-gray-600 dark:text-gray-400 text-base leading-relaxed">
             <p>
-              I&apos;m a full-stack engineer with 5+ years of experience across the entire web stack — from
-              database schema design and server architecture to pixel-perfect UI and performance optimisation.
-              I thrive in the intersection between backend reliability and frontend experience.
+              I&apos;m Glenn, a full-stack engineer with a year of experience across the entire
+              web stack — from database schema design and server architecture to pixel-perfect UI and
+              performance optimisation. I thrive at the intersection of backend reliability and frontend experience.
             </p>
             <p>
-              Before going independent, I built infrastructure at a Series B fintech startup and led frontend
-              development at a developer tools company. I&apos;ve shipped features used by tens of thousands of
-              people and reviewed enough code to know what makes a codebase joyful to work in six months later.
+              I take on selected freelance projects and consult on architecture decisions for early-stage teams.
             </p>
             <p>
-              These days I take on selected freelance projects and consult on architecture decisions for
-              early-stage teams. I&apos;m also open to senior full-time roles where I can work on genuinely
-              hard problems with people who care about their craft.
-            </p>
-            <p>
-              Outside work: mechanical keyboards, specialty coffee, trail running, and reading about
-              distributed systems at an embarrassing pace.
+              Outside work: networking, specialty coffee, trail running, and widening knowledge on emerging trends
             </p>
           </div>
         </div>
       </section>
-
       <section className="section-padding bg-gray-50 dark:bg-gray-900/50">
         <div className="section-container">
           <p className="section-eyebrow">How I Work</p>
