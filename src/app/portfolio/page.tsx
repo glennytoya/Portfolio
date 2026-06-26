@@ -6,7 +6,7 @@ import { SkillsPreview }  from '@/components/portfolio/SkillsPreview'
 import { CtaSection }     from '@/components/portfolio/CtaSection'
 
 export const metadata: Metadata = {
-  title: 'Alex Mercer — Full-Stack Engineer',
+  title: 'Glenn  — Full-Stack Engineer',
   description: 'Building scalable systems and intuitive interfaces.',
 }
 
