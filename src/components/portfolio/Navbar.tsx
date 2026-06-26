@@ -1,4 +1,3 @@
-// src/components/portfolio/Navbar.tsx
 'use client'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
