@@ -1,7 +1,3 @@
-Here's the corrected file with your details:
-
-```tsx
-// src/components/portfolio/ContactSection.tsx
 'use client'
 import { useState } from 'react'
 import { Send, Mail, Github, Linkedin, MapPin } from 'lucide-react'
