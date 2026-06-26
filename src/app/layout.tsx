@@ -1,4 +1,3 @@
-// src/app/layout.tsx
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Providers } from '@/components/ui/Providers'
@@ -13,23 +12,23 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: {
-    default: 'Alex Mercer — Full-Stack Engineer',
-    template: '%s | Alex Mercer',
+    default: 'Glenn Toya — Full-Stack Engineer',
+    template: '%s | Glenn Toya',
   },
   description: 'Full-stack engineer building scalable systems and intuitive interfaces. Available for freelance and full-time roles.',
   keywords: ['software engineer', 'full-stack', 'React', 'Next.js', 'TypeScript', 'MongoDB'],
-  authors: [{ name: 'Alex Mercer' }],
-  creator: 'Alex Mercer',
+  authors: [{ name: 'Glenn Toya' }],
+  creator: 'Glenn Toya',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'Alex Mercer Portfolio',
-    title: 'Alex Mercer — Full-Stack Engineer',
+    siteName: 'Glenn Toya Portfolio',
+    title: 'Glenn Toya — Full-Stack Engineer',
     description: 'Full-stack engineer building scalable systems and intuitive interfaces.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Alex Mercer — Full-Stack Engineer',
+    title: 'Glenn Toya — Full-Stack Engineer',
     description: 'Full-stack engineer building scalable systems and intuitive interfaces.',
   },
   robots: { index: true, follow: true },
