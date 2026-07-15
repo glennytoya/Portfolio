@@ -1,4 +1,3 @@
-// src/components/portfolio/HeroSection.tsx
 import Link from 'next/link'
 import { ArrowRight, Download, Github, Linkedin } from 'lucide-react'
 
@@ -35,7 +34,7 @@ export function HeroSection() {
           </p>
 
           <p className="text-base text-gray-500 dark:text-gray-500 mb-10 max-w-xl animate-fade-up animate-delay-200">
-            5+ years shipping production software across fintech, SaaS, and developer tooling.
+           A year of shipping production software across fintech, SaaS, and developer tooling.
             I care about clean APIs, great DX, and code that&apos;s easy to delete.
           </p>
 
@@ -47,14 +46,15 @@ export function HeroSection() {
             <Link href="/portfolio/contact" className="btn-secondary">
               Get in touch
             </Link>
-            <a
-              href="/resume.pdf"
-              download
+            
+              href="https://drive.google.com/uc?export=download&id=1fUCGWHV28ltrtU1fgRKLW2OEEYqwxyXT"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-ghost"
             >
               <Download size={16} />
               Resume
-           <a href="https://drive.google.com/uc?export=download&id=1fUCGWHV28ltrtU1fgRKLW2OEEYqwxyXT" target="_blank" rel="noopener noreferrer" className="btn-ghost">
+            </a>
           </div>
 
           <div className="flex items-center gap-4 mt-10 animate-fade-up animate-delay-400">
@@ -63,7 +63,7 @@ export function HeroSection() {
               { Icon: Github,   href: 'https://github.com/glennytoya',      label: 'GitHub' },
               { Icon: Linkedin, href: 'https://linkedin.com/in/glennytoya', label: 'LinkedIn' },
             ].map(({ Icon, href, label }) => (
-              <a
+              
                 key={label}
                 href={href}
                 target="_blank"
