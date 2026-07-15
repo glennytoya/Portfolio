@@ -54,7 +54,7 @@ export function HeroSection() {
             >
               <Download size={16} />
               Resume
-            </a>
+            </a<a href="https://drive.google.com/file/d/1fUCGWHV28ltrtU1fgRKLW2OEEYqwxyXT/view" target="_blank" rel="noopener noreferrer" className="btn-ghost">>
           </div>
 
           <div className="flex items-center gap-4 mt-10 animate-fade-up animate-delay-400">
