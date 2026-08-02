@@ -12,8 +12,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: {
-    default: 'Glenn Toya — Full-Stack Engineer',
-    template: '%s | Glenn Toya',
+    default: 'Full-Stack Engineer',
+    template: '%s | Portfolio',
   },
   description: 'Full-stack engineer building scalable systems and intuitive interfaces. Available for freelance and full-time roles.',
   keywords: ['software engineer', 'full-stack', 'React', 'Next.js', 'TypeScript', 'MongoDB'],
@@ -22,13 +22,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'Glenn Toya Portfolio',
-    title: 'Glenn Toya — Full-Stack Engineer',
+    siteName: 'Portfolio',
+    title: 'Full-Stack Engineer',
     description: 'Full-stack engineer building scalable systems and intuitive interfaces.',
   },
-  twitter: {
+  x: {
     card: 'summary_large_image',
-    title: 'Glenn Toya — Full-Stack Engineer',
+    title: 'Full-Stack Engineer',
     description: 'Full-stack engineer building scalable systems and intuitive interfaces.',
   },
   robots: { index: true, follow: true },
