@@ -16,9 +16,7 @@ export function HeroSection() {
           </div>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             Hi, I&apos;m{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-purple-600">
-              Glenn
-            </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-purple-600">Glenn</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-4 font-light leading-relaxed">
             Full-stack engineer building{' '}
@@ -26,4 +24,34 @@ export function HeroSection() {
             {' '}and{' '}
             <span className="text-gray-900 dark:text-gray-200 font-medium">intuitive interfaces</span>.
           </p>
-          <p className="text-base text-gray-500 dark:text-gray-500 mb-10
+          <p className="text-base text-gray-500 mb-10 max-w-xl">
+            A year of shipping production software across fintech, SaaS, and developer tooling.
+            I care about clean APIs, great DX, and code that&apos;s easy to delete.
+          </p>
+          <div className="flex flex-wrap items-center gap-3">
+            <Link href="/portfolio/projects" className="btn-primary">
+              View my work
+              <ArrowRight size={16} />
+            </Link>
+            <Link href="/portfolio/contact" className="btn-secondary">
+              Get in touch
+            </Link>
+            <a href="https://docs.google.com/document/d/1fUCGWHV28ltrtU1fgRKLW2OEEYqwxyXT/export?format=pdf" target="_blank" rel="noopener noreferrer" className="btn-ghost">
+              <Download size={16} />
+              Resume
+            </a>
+          </div>
+          <div className="flex items-center gap-4 mt-10">
+            <span className="text-xs text-gray-400 font-mono">Find me on</span>
+            <a href="https://github.com/glennytoya" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="w-8 h-8 rounded-lg flex items-center justify-center text-gray-400 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all">
+              <Github size={18} />
+            </a>
+            <a href="https://linkedin.com/in/glennytoya" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="w-8 h-8 rounded-lg flex items-center justify-center text-gray-400 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all">
+              <Linkedin size={18} />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
