@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowRight, Download, Github, Linkedin } from 'lucide-react'
+import { ArrowRight, Download } from 'lucide-react'
 
 export function HeroSection() {
   return (
@@ -39,15 +39,6 @@ export function HeroSection() {
             <a href="https://docs.google.com/document/d/1fUCGWHV28ltrtU1fgRKLW2OEEYqwxyXT/export?format=pdf" target="_blank" rel="noopener noreferrer" className="btn-ghost">
               <Download size={16} />
               Resume
-            </a>
-          </div>
-          <div className="flex items-center gap-4 mt-10">
-            <span className="text-xs text-gray-400 font-mono">Find me on</span>
-            <a href="https://github.com/glennytoya" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="w-8 h-8 rounded-lg flex items-center justify-center text-gray-400 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all">
-              <Github size={18} />
-            </a>
-            <a href="https://linkedin.com/in/glennytoya" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="w-8 h-8 rounded-lg flex items-center justify-center text-gray-400 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all">
-              <Linkedin size={18} />
             </a>
           </div>
         </div>
