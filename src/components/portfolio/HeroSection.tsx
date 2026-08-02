@@ -5,16 +5,13 @@ import { ArrowRight, Download, Github, Linkedin } from 'lucide-react'
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden pt-16">
-      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-violet-50 via-white to-purple-50 dark:from-gray-950 dark:via-gray-950 dark:to-violet-950/20" />
       <div className="absolute inset-0 bg-dots-light dark:bg-dots-dark" />
-      {/* Glow blobs */}
       <div className="absolute top-1/4 right-1/4 w-72 h-72 bg-violet-400/10 dark:bg-violet-600/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-1/4 left-1/3 w-96 h-96 bg-purple-400/10 dark:bg-purple-600/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="section-container relative z-10 py-24">
         <div className="max-w-3xl">
-          {/* Eyebrow */}
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-100 dark:bg-violet-900/30 border border-violet-200 dark:border-violet-800 mb-6 animate-fade-in">
             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse-slow" />
             <span className="text-xs font-medium text-violet-700 dark:text-violet-300 font-mono">Available for work</span>
