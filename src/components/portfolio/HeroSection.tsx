@@ -36,7 +36,7 @@ export function HeroSection() {
             <Link href="/portfolio/contact" className="btn-secondary">
               Get in touch
             </Link>
-            <a href="https://docs.google.com/document/d/1fUCGWHV28ltrtU1fgRKLW2OEEYqwxyXT/export?format=pdf" target="_blank" rel="noopener noreferrer" className="btn-ghost">
+            <a href="https://docs.google.com/document/d/1fUCGWHV28ltrtU1fgRKLW2OEEYqwxyXT/edit?usp=drive_link&ouid=105752162713759653028&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="btn-ghost">
               <Download size={16} />
               Resume
             </a>
