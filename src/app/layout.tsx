@@ -26,7 +26,8 @@ export const metadata: Metadata = {
     title: 'Full-Stack Engineer',
     description: 'Full-stack engineer building scalable systems and intuitive interfaces.',
   },
-  x: {
+  
+  twitter: {
     card: 'summary_large_image',
     title: 'Full-Stack Engineer',
     description: 'Full-stack engineer building scalable systems and intuitive interfaces.',
