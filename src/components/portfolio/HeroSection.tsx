@@ -1,3 +1,4 @@
+// src/components/portfolio/HeroSection.tsx
 import Link from 'next/link'
 import { ArrowRight, Download, Github, Linkedin } from 'lucide-react'
 
