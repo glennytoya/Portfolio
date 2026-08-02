@@ -34,7 +34,7 @@ export function HeroSection() {
           </p>
 
           <p className="text-base text-gray-500 dark:text-gray-500 mb-10 max-w-xl animate-fade-up animate-delay-200">
-           A year of shipping production software across fintech, SaaS, and developer tooling.
+            A year of shipping production software across fintech, SaaS, and developer tooling.
             I care about clean APIs, great DX, and code that&apos;s easy to delete.
           </p>
 
@@ -47,7 +47,7 @@ export function HeroSection() {
               Get in touch
             </Link>
             
-              href="https://drive.google.com/uc?export=download&id=1fUCGWHV28ltrtU1fgRKLW2OEEYqwxyXT"
+              href="https://docs.google.com/document/d/1fUCGWHV28ltrtU1fgRKLW2OEEYqwxyXT/export?format=pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-ghost"
