@@ -53,10 +53,10 @@ export function ContactSection() {
               </div>
               <div className="space-y-4">
                 {[
-                  { Icon: Mail,     label: 'Email',    value: 'glennnderitu@gmail.com',      href: 'glennnderitu@gmail.com' },
-                  { Icon: Github,   label: 'GitHub',   value: 'github.com/glennytoya',       href: 'https://github.com/glennytoya' },
+                  { Icon: Mail,     label: 'Email',    value: 'glennnderitu@gmail.com',  href: 'mailto:glennnderitu@gmail.com' },
+                  { Icon: Github,   label: 'GitHub',   value: 'github.com/glennytoya',   href: 'https://github.com/glennytoya' },
                   { Icon: Linkedin, label: 'LinkedIn', value: 'in/glenny',               href: 'https://linkedin.com/in/glennytoya' },
-                  { Icon: MapPin,   label: 'Location', value: 'Nairobi, Kenya',              href: undefined },
+                  { Icon: MapPin,   label: 'Location', value: 'Nairobi, Kenya',           href: undefined },
                 ].map(({ Icon, label, value, href }) => (
                   <div key={label} className="flex items-center gap-3">
                     <div className="w-9 h-9 rounded-xl bg-violet-50 dark:bg-violet-900/20 flex items-center justify-center shrink-0">
