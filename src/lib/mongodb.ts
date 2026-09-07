@@ -26,10 +26,9 @@ export async function connectDB() {
   }
 
   if (!cached.mongoose!.promise) {
-    cached.mongoose!.promise = mongoose.connect(MONGODB_URI);
+    cached.mongoose!.promise = mongoose.connect(MONGODB_URI!);
   }
 
   cached.mongoose!.conn = await cached.mongoose!.promise;
-
   return cached.mongoose!.conn;
 }
